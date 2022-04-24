@@ -30,6 +30,7 @@
 		$responseJSON['tweet'] = $fullTweet;
 		$responseJSON['tweetLength'] = strlen($fullTweet);
 		if(strlen($fullTweet)> $twitterCharacterLimit){
+			$quotesArray['tweetLength'] = strlen($fullTweet);
 			array_push($failedArray, $quotesArray);
 			$responseJSON['failedJsonCount'] = count($failedArray);
 			$failedArray = json_encode($failedArray);
