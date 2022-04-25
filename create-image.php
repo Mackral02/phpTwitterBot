@@ -26,8 +26,8 @@
 		$line_height=30;
 	    // $font = 'twitter/SquarePeg-Regular.ttf';
 	    $font = 'twitter/Oswald-Light.ttf';
-	    // $fontRoboto = 'twitter/Roboto-Regular.ttf';
-	    $fontRoboto = 'twitter/Playball-Regular.ttf';
+	    $fontRoboto = 'twitter/Roboto-Regular.ttf';
+	    // $fontRoboto = 'twitter/Playball-Regular.ttf';
 		for($i=0; $i<$wnum; $i++){
 		  $line .= $words[$i];
 		  $dimensions = imagettfbbox($font_size, 0, $font, $line);
@@ -54,7 +54,7 @@
 		// print_r($lines);
 	    // imagettftext($outputImage, 20, 0, 20, 149, $gray, $font, $text);
 	    // imagettftext($outputImage, $font_size, 0, 20, 150, $white, $font, $text);
-	    imagettftext($outputImage, 7, 0, 165, 492, $white, $fontRoboto, "©Copyrights @i_am_mackral");
+	    imagettftext($outputImage, 7, 0, 390, 492, $white, $fontRoboto, "© mackral.gonsalves.xyz");
 
 	    $imgname = round(microtime(true)).'.jpeg';
 	    $filename = $targetPath .$imgname;
