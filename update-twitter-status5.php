@@ -65,6 +65,7 @@
 				}else{
 					$responseJSON['error'] = 'no quote/s received';
 				}
+				usleep( 2 * 1000 );
 			}
 			// $quotesArray['tweetLength'] = strlen($fullTweet);
 			// array_push($failedArray, $quotesArray);
