@@ -4,7 +4,7 @@
 
 	$twitterCharacterLimit = 270;
 	$twitterDatasetPath = 'twitter/dataset/';
-	$twitterCurrentDataset = 'json1.json';
+	$twitterCurrentDataset = 'json2.json';
 	$imageBackgroundURL = 'https://picsum.photos/800/800.jpg';
 	$responseJSON = [];
 
