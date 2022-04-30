@@ -75,7 +75,7 @@
 			// $abs_path = __DIR__ .'/'.$twitterDatasetPath.'failed-json.json';
 			// $fp = fopen($abs_path, 'w');
 			// fwrite($fp, $failedArray);
-			// fclose($fp);
+			/// fclose($fp);
 		// }
 		
 	}else{
