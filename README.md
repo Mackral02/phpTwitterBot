@@ -12,10 +12,9 @@ Twitter bot that tweets with text, creates images and tweets and loads of more f
 ## 🚀 About Me
 I'm a UI/Frontend developer...
 
-
+[![Mackral's GitHub stats](https://github-readme-stats.vercel.app/api?username=mackral02)](https://github.com/mackral02/)
 # Mackral's merge text and image
-## Fetching demo example code
-Demo code for fetching the image.
+## Demo code for fetching the image.
 ```sh
 var formdata = new FormData();
 formdata.append("quote", "");
