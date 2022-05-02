@@ -13,6 +13,7 @@ Twitter bot that tweets with text, creates images and tweets and loads of more f
 I'm a UI/Frontend developer...
 
 [![Mackral's GitHub stats](https://github-readme-stats.vercel.app/api?username=mackral02&count_private=true&show_icons=true&theme=dark)](https://github.com/mackral02/)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mackral02&layout=compact)](https://github.com/mackral02)
 # Mackral's merge text and image
 ## Demo code for fetching the image.
 ```sh
